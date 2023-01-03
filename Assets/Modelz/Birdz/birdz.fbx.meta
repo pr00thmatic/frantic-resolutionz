@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: 973a1246b4cba6f73a24b9f438eabbea
 ModelImporter:
-  serializedVersion: 21300
+  serializedVersion: 22103
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: birdz
+    second: {fileID: 2100000, guid: f0cb76760680591fe97b239a4ccec72d, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -212,6 +217,7 @@ ModelImporter:
     secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -244,6 +250,7 @@ ModelImporter:
   humanoidOversampling: 1
   avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 0
   remapMaterialsIfMaterialImportModeIsNone: 0
   additionalBone: 0
   userData: 
