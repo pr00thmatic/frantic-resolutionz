@@ -609,7 +609,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02e89ed8fb9205c4983d482fff20f563, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 1
+  speed: 10
   targetOrientation: 0
   targetEulerRotation: {x: 0, y: 0, z: 0}
   birdz: {fileID: 1973126472}
