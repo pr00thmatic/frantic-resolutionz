@@ -1,0 +1,8 @@
+[user]
+  email = vengadoravg@gmail.com
+
+[url "git@github.com/pr00thmatic"]
+  insteadOf = git@github.com
+
+[core]
+  sshCommand = ssh -i ~/.ssh/pr00thmatic -F /dev/null
