@@ -7,6 +7,7 @@ public class MotionControlz : MonoBehaviour {
   [Header("Configuration")]
   public float maxSpeed = 5;
   public InputAction horizontalControlz;
+  // public Rigidbody body;
 
   [Header("Information")]
   public float desiredHorizontal;
@@ -31,7 +32,10 @@ public class MotionControlz : MonoBehaviour {
       rootAnimatorz.SetInteger("orientation", orientation);
       animatorz.SetTrigger("turn");
     }
+  }
 
+  void FixedUpdate () {
+    // body.
     transform.position += Vector3.right * desiredHorizontal * maxSpeed * Time.deltaTime;
   }
 }
